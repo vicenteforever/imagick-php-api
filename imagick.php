@@ -9,7 +9,6 @@
  */
 class Xiami_ImageMagick {
 	
-	private static $instance = null;
 	protected $image = null;
 	protected $image_data = array();
 	protected $image_type = null;
@@ -44,7 +43,6 @@ class Xiami_ImageMagick {
 			exit;
 		}
 	}
-	
 
 	/**
 	 * 先等比例缩放，然后从中或原点裁切
@@ -404,4 +402,5 @@ class Xiami_ImageMagick {
 			exit;
 		}
 	}
+	
 }
